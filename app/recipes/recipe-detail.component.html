@@ -1,0 +1,37 @@
+﻿<div class="panel-heading panel-primary">
+    <div class="panel-info" style="font-family:'Freestyle Script'; font-weight:bold; font-size:xx-large; background-color:lightgreen; padding-left:10px;">
+        {{pageTitle}}
+    </div>
+    <div class="panel-body">
+        <div style="text-align:center; margin-bottom:15px;"><button type="button" class="btn btn-success btn-lg" (click)="getRecipe()">{{viewShow ? "Back to Directions" : "Get Started!"}}</button></div>
+        <p class="row" style="color: #654321; text-align: center; font-size:large; padding-left:15px; padding-right:15px;" *ngIf="viewShow == false">
+            Welcome to the detailed view! Here you can view more details about a specific recipe that you might be interested in.
+        </p>
+        <div *ngIf="recipe && viewShow == true" style="color:#654321;">
+            <h1 style="font-weight:bold; font-family:'Freestyle Script'; font-size:xx-large;">
+                {{recipe.recipeName}}
+            </h1>
+            &nbsp;
+            <p style="font-size:medium;">
+                {{recipe.description}}
+            </p>
+            &nbsp;
+            <div style="font-size:medium;">
+                Directions: 
+            </div>
+            <div style="font-size:medium;">
+                1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>
+                2. Incididunt ut labore et dolore magna aliqua. Ut enim ad   <br/>
+                3. Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  <br />
+                4. Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore <br />
+                5. Eu fugiat nulla pariatur. Excepteur sint occaecat  <br />
+                6. Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer" style="background-color:white; border:none;">
+        <a class="btn btn-default" (click)="onBack()" style="width:80px">
+            <i class="glyphicon glyphicon-chevron-left"></i> Back
+        </a>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+[
+  {
+    "recipeId": 1,
+    "recipeName": "Tuna",
+    "releaseDate": "10-10-15",
+    "description": "This declious recipe features a tuna steak grilled to perfection with a sesame seasoning. Perfect for a nice summer day out on the porch, this will be loved by the whole family! Optionally you can also try it with a sweet thai chili sauce!",
+    "starRating": 3,
+    "imageUrl": "https://openclipart.org/image/800px/svg_to_png/259194/Yellow-Fin-Tuna-Silhouette.png"
+  },
+  {
+    "recipeId": 2,
+    "recipeName": "Cheeseburger",
+    "releaseDate": "07-22-14",
+    "description": "Cheeseburger with fried onions and bbq sauce",
+    "starRating": 4,
+    "imageUrl": "https://openclipart.org/image/800px/svg_to_png/196148/hamburger.png"
+  },
+  {
+    "recipeId": 3,
+    "recipeName": "Bacon",
+    "releaseDate": "04-07-15",
+    "description": "Bacon simmered until it has a light crisp",
+    "starRating": 4,
+    "imageUrl": "https://openclipart.org/image/800px/svg_to_png/209517/food-bacon.png"
+  },
+  {
+    "recipeId": 4,
+    "recipeName": "Fruit Salad",
+    "releaseDate": "11-03-15",
+    "description": "A tasty combination of fruits",
+    "starRating": 4.5,
+    "imageUrl": "https://openclipart.org/image/800px/svg_to_png/209581/food-fruit-salad.png"
+  },
+  {
+    "recipeId": 5,
+    "recipeName": "Rice Bowl",
+    "releaseDate": "12-08-13",
+    "description": "A large bowl of sticky white rice",
+    "starRating": 3,
+    "imageUrl": "https://openclipart.org/image/800px/svg_to_png/177073/Riz-bol-baguettes-vrai-vectoriel-simplifie.png"
+  },
+  {
+    "recipeId": 6,
+    "recipeName": "Pancakes",
+    "releaseDate": "05-03-14",
+    "description": "Light and fluffy pancakes",
+    "starRating": 4.2,
+    "imageUrl": "https://openclipart.org/image/800px/svg_to_png/209582/food-gammas-pancakes.png"
+  }
+]

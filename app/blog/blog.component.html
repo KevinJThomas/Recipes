@@ -1,0 +1,20 @@
+﻿<div class="panel-heading panel-primary" style="border:none;">
+    <div class="panel-body">
+        <div class="table-responsive">
+            <table class="table borderless">
+                <thead>
+                    <tr style="color: #654321; font-weight:bolder;">
+                        <th>Blog Posts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="#blog of blogs" style="color: #654321;">
+                        <td>
+                            <a href="{{blog.blogUrl}}"> {{blog.blogName}} </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
